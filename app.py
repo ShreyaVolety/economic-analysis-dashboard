@@ -127,6 +127,7 @@ from datetime import datetime
 import pandas as pd
 
 app = Dash(__name__)
+server = app.server
 
 EXCLUDE_TICKERS = ["CPIAUCSL", "CPILFESL", "PPIACO", "M2SL","PAYEMS","AHETPI"]
 REGIME_BUTTON_MAP = {
