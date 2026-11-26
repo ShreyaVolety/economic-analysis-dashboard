@@ -1,0 +1,26 @@
+,Ticker,Name,Category,Description,Why Useful,Default Transform
+0,CPIAUCSL,Consumer Price Index,CPI & Inflation,Headline CPI measuring consumer price inflation.,Core measure for identifying inflation regimes.,YoY % Change
+1,CPILFESL,Core CPI,CPI & Inflation,CPI excluding food and energy.,Shows underlying inflation pressure without volatile components.,YoY % Change
+2,PPIACO,Producer Price Index,CPI & Inflation,Producer-level price index.,Can show upstream inflation pressure before it reaches consumers.,YoY % Change
+3,T10YIE,10Y Breakeven Inflation,Inflation Expectations,Market-implied 10-year inflation expectation.,Shows whether inflation expectations are becoming unanchored.,Level
+4,T5YIE,5Y Breakeven Inflation,Inflation Expectations,Market-implied 5-year inflation expectation.,Captures shorter-term inflation expectation pressure.,Level
+5,MICH,Michigan Inflation Expectations,Inflation Expectations,Survey-based consumer inflation expectations.,Useful for comparing consumer expectations against market expectations.,Level
+6,FEDFUNDS,Effective Federal Funds Rate,Interest Rates,Policy rate targeted by the Federal Reserve.,Shows monetary policy stance across regimes.,Level
+7,DGS2,2-Year Treasury Yield,Interest Rates,Short/intermediate Treasury yield.,Sensitive to expected Fed policy.,Level
+8,DGS10,10-Year Treasury Yield,Interest Rates,Long-term Treasury yield.,"Reflects growth, inflation expectations, and term premium.",Level
+9,DFII10,10-Year Real Yield,Interest Rates,10-year Treasury inflation-indexed real yield.,Shows real discount-rate pressure after inflation adjustment.,Level
+10,MORTGAGE30US,30-Year Mortgage Rate,Interest Rates,Average 30-year fixed mortgage rate.,Shows how tightening transmits into housing affordability.,Level
+11,T10Y2Y,10Y-2Y Treasury Spread,Yield Curve,Difference between 10-year and 2-year Treasury yields.,Classic recession leading indicator through curve inversion.,Level
+12,T10Y3M,10Y-3M Treasury Spread,Yield Curve,Difference between 10-year and 3-month Treasury yields.,Another widely used yield-curve recession signal.,Level
+13,M2SL,M2 Money Supply,Money Supply,Broad money supply measure.,Tracks liquidity conditions and monetary expansion/contraction.,YoY % Change
+14,BOGMBASE,Monetary Base,Money Supply,Currency in circulation plus reserve balances.,Shows central-bank balance sheet/liquidity expansion.,YoY % Change
+15,UNRATE,Unemployment Rate,Labor Market,Share of labor force unemployed.,Captures labor-market deterioration and recession severity.,Level
+16,PAYEMS,Nonfarm Payrolls,Labor Market,Total nonfarm employment.,Tracks employment growth and labor-market momentum.,YoY % Change
+17,AHETPI,Average Hourly Earnings,Labor Market,Average hourly earnings of production/nonsupervisory workers.,Useful proxy for wage pressure and sticky inflation.,YoY % Change
+18,JTSJOL,Job Openings,Labor Market,Number of job openings from JOLTS.,Measures labor demand and tightness.,Level
+19,DCOILWTICO,WTI Crude Oil Price,Commodities & Housing,Daily West Texas Intermediate crude oil price.,Captures commodity shocks that can feed inflation.,YoY % Change
+20,GVZCLS,Gold Volatility Index,Commodities & Housing,CBOE gold ETF volatility index.,Captures uncertainty and safe-haven volatility.,Level
+21,CSUSHPISA,Case-Shiller Home Price Index,Commodities & Housing,National home price index.,Tracks housing-market strength and rate-sensitive stress.,YoY % Change
+22,DTWEXBGS,Trade-Weighted U.S. Dollar,Dollar & Trade,Broad nominal trade-weighted U.S. dollar index.,"Shows dollar strength, imported inflation pressure, and flight-to-safety behavior.",Level
+23,USREC,NBER Recession Indicator,Recession Indicators,Binary recession indicator based on NBER recession dates.,Used to shade official recession periods.,Level
+24,RECPROUSM156N,Smoothed Recession Probability,Recession Indicators,Probability estimate of U.S. recession.,Useful for comparing market/macro signals against recession risk.,Level
