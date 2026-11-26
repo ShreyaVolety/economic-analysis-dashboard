@@ -71,7 +71,7 @@ def read_latest_data():
             final_monthly[ticker] = temp[ticker]
 
         else:
-            temp = pd.read_csv(f'raw_data/latest_pull_{ticker}_2026-05-7.csv',index_col=0)
+            temp = pd.read_csv(f'raw_data/latest_pull_{ticker}_2026-05-07.csv',index_col=0)
             temp = temp.dropna()
             temp = temp.reset_index()
             temp.columns = ['Date',ticker]
