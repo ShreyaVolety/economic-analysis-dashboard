@@ -24,14 +24,14 @@ def read_latest_data():
         
         print(f'Reading: {ticker}')
         if count==0:
-            temp = pd.read_csv(f'raw_data/latest_pull_{ticker}_2026-05-06.csv',index_col=0)
+            temp = pd.read_csv(f'raw_data/latest_pull_{ticker}_2026-05-07.csv',index_col=0)
             temp = temp.dropna()
             temp = temp.reset_index()
             final_daily['Date'] = temp['index']
             final_daily[ticker] = temp[ticker]
 
         else:
-            temp = pd.read_csv(f'raw_data/latest_pull_{ticker}_2026-05-06.csv',index_col=0)
+            temp = pd.read_csv(f'raw_data/latest_pull_{ticker}_2026-05-07.csv',index_col=0)
             temp = temp.dropna()
             temp = temp.reset_index()
             temp.columns = ['Date',ticker]
@@ -64,14 +64,14 @@ def read_latest_data():
         
         print(f'Reading: {ticker}')
         if count==0:
-            temp = pd.read_csv(f'raw_data/latest_pull_{ticker}_2026-05-06.csv',index_col=0)
+            temp = pd.read_csv(f'raw_data/latest_pull_{ticker}_2026-05-07.csv',index_col=0)
             temp = temp.dropna()
             temp = temp.reset_index()
             final_monthly['Date'] = temp['index']
             final_monthly[ticker] = temp[ticker]
 
         else:
-            temp = pd.read_csv(f'raw_data/latest_pull_{ticker}_2026-05-06.csv',index_col=0)
+            temp = pd.read_csv(f'raw_data/latest_pull_{ticker}_2026-05-76.csv',index_col=0)
             temp = temp.dropna()
             temp = temp.reset_index()
             temp.columns = ['Date',ticker]
@@ -80,7 +80,7 @@ def read_latest_data():
 
         count+=1
 
-    final_weekly = pd.read_csv(f'raw_data/latest_pull_MORTGAGE30US_2026-05-06.csv',index_col=0)
+    final_weekly = pd.read_csv(f'raw_data/latest_pull_MORTGAGE30US_2026-05-07.csv',index_col=0)
     print('Reading: MORTGAGE30US')
     final_weekly = final_weekly.reset_index()
     final_weekly.columns = ['Date','MORTGAGE30US']
