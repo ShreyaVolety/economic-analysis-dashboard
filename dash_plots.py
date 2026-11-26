@@ -25,7 +25,7 @@ def make_mini_fig(ticker, name):
 
     #reading from raw_data stored - last pull is being hardcode, but in the future data can be auto-refreshed
 
-    df = pd.read_csv(f'raw_data/latest_pull_{ticker}_2026-05-06.csv',index_col=0)
+    df = pd.read_csv(f'raw_data/latest_pull_{ticker}_2026-05-07.csv',index_col=0)
     df = df.reset_index()
     df.columns = ['Date',ticker]
 
